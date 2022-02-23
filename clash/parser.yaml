@@ -2,6 +2,8 @@ parsers:     #作者链接：https://docs.cfw.lbyczf.com/contents/parser.html
   - url:  https://example.com/profile.yaml #订阅链接
     yaml:
       prepend-rules:     #规则增加
+        - DOMAIN-SUFFIX,fjisu2.com,DIRECT
+        - DOMAIN-KEYWORD,y3600,DIRECT
         - DOMAIN-SUFFIX,account.wondershare.com,REJECT
         - DOMAIN-SUFFIX,cbs.wondershare.com,REJECT
         - DOMAIN-SUFFIX,download.wondershare.com,REJECT
